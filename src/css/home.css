@@ -1,0 +1,48 @@
+/* Add your global styles here if needed */
+
+/* Header Section Styles */
+header {
+  background-color: #fff; /* Adjust the background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift */
+}
+
+nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4a5568; /* Adjust the text color */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #6b7280; /* Adjust the text color on hover */
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+}
+
+/* Main Section Styles */
+section {
+  background-color: #f7fafc; /* Adjust the background color */
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 10.75rem); /* Adjust the height as needed */
+  border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  header {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+}

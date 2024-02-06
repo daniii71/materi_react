@@ -1,0 +1,14 @@
+{
+    "jual": [
+      {
+        "id": 1,
+        "title": "Kacang",
+        "price": 250000
+      },
+      {
+        "id": 2,
+        "title": "Tepung",
+        "price": 150000
+      }
+    ]
+  }
