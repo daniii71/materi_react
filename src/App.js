@@ -5,6 +5,7 @@ import Home from "./page/Home";
 // import Profile from "./page/profile";
 // import TesJson from "./page/json";
 import TesData from "./page/Data";
+import Catatan from "./page/Catatan";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         {/* <TesJson /> */}
         <TesData />
+        <Catatan />
         <main>
           <Switch>
             <Route path="/" component={Home} exact />
